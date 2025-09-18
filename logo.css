@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(24, 18, 18);
+}
+#sub-container{
+    margin-top:300px;
+    margin-left:50px;
+    display: flex;
+    justify-content: center;
+}
+
+#img{
+    margin-top:1px;
+    border-color:whitesmoke;
+    border-width:8px;
+    border-radius:100%;
+    width:150px;
+    height:150px;
+}
+
+#anchor-container{
+    border-style:none;
+    height:170px;
+    border-color: whitesmoke;
+    text-decoration: none;
+}
+#txt{
+    margin-left:60px;
+}

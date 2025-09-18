@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(59, 37, 37);
+}
+.app{
+    background:whitesmoke;
+    width:95%;
+    max-width: 500px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+    height:420px;
+}
+
+.quiz{
+    padding: 20px 0;
+}
+.quiz h2{
+    font-size: 18px;
+    color:rgb(12, 12, 88);
+    font-weight: 600;
+}
+
+.btn{
+    background: white;
+    color:#222;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.btn:hover:not([disabled]){
+    background: #222;
+    color:white;
+}
+.btn:disabled{
+    cursor:no-drop;
+}
+
+#next-btn{
+    background: rgb(12, 12, 88);
+    color: white;
+    font-weight:500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+}
+.correct{
+    background: rgb(8, 85, 8);
+    color: white;
+}
+.incorrect{
+    background: rgb(208, 21, 21);
+    color: white;
+}
+#button{
+    width:25%;
+    height:25px;
+    margin-left:168px;
+    margin-top: 20px;
+    border-style:solid;
+    border-radius: 2px;
+    background: white;
+    border-color: rgb(36, 170, 36);
+    background: rgb(36, 170, 36);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:15px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+#button:hover{
+    color: whitesmoke;
+    cursor: pointer;
+    background: green;
+    border-color: green;
+}
